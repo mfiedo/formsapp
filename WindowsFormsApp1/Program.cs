@@ -78,7 +78,7 @@ namespace WindowsFormsApp1
                 }
             catch(DivideByZeroException)
                 {
-                    Console.WriteLine("You can't have a root of \"0\"");
+                    c = 1;
                 }
         }
 		/// <summary>
